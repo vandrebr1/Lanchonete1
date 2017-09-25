@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hmkcode="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/configuracoes_acPedir"
+        hmkcode:showAsAction="always"
+        android:title="@string/pedido_pedir"/>
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparencia">
+
+    <br.com.vandre.lanchonete.util.DynamicImageView
+        android:id="@+id/itemmonteseulanche_ivImagem"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/itemmonteseulanche_tvProduto"
+        style="@style/Texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_toEndOf="@+id/itemmonteseulanche_ivImagem"
+        android:text="PRODUTO 1"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/itemmonteseulanche_tvPreco"
+        style="@style/Texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemmonteseulanche_tvProduto"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_toEndOf="@+id/itemmonteseulanche_ivImagem"
+        android:text="R$ 999,99"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/itemmonteseulanche_btnRemover"
+        style="@style/Botao"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_media"
+        android:background="@color/vermelho"
+        android:focusable="true"
+        android:text="@string/itemmonteseulanche_remover"
+        android:textColor="@color/branco"
+        android:textStyle="bold" />
+
+</RelativeLayout>

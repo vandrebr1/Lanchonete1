@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hmkcode="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/acItens"
+        hmkcode:showAsAction="always"
+        android:title="Pedir"
+        android:state_pressed="true" android:drawable="@color/colorAccent"
+        />
+
+</menu>

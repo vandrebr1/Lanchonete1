@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <br.com.vandre.lanchonete.util.DynamicImageView
+            android:id="@+id/itemingrediente_ivImagem"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/itemingrediente_tvProduto"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemingrediente_ivImagem"
+            android:layout_centerHorizontal="true"
+            android:text="Hamburger de Carne"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/itemingrediente_tvPreco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemingrediente_tvProduto"
+            android:layout_centerHorizontal="true"
+            android:text="@string/itemingrediente_preco" />
+
+
+        <Button
+            android:id="@+id/itemingrediente_btnAdicionar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemingrediente_tvPreco"
+            android:layout_centerHorizontal="true"
+            android:background="@color/verde"
+            android:focusable="true"
+            android:padding="@dimen/activity_vertical_margin_minima"
+            android:text="@string/itemingrediente_remover"
+            android:textColor="@color/branco" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="1dp"
+            android:layout_toRightOf="@+id/itemingrediente_btnAdicionar"
+            android:background="@color/transparencia" />
+    </RelativeLayout>
+
+</LinearLayout>

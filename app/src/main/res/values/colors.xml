@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="btnHabilitadoFundo">#7599BF</color>
+    <color name="btnHabilitadoClick">#C6D5E6</color>
+    <color name="btnDesabilitado">#B9B9B9</color>
+    <color name="atencao">#FF0000</color>
+    <color name="tvIconeMain">#7599BF</color>
+    <color name="tvTextoGridDestaque">#7599BF</color>
+    <color name="tvIconeFundo">#C6D5E6</color>
+
+    <color name="marrom">#91795A</color>
+    <color name="transparencia">#44FFFFFF</color>
+    <color name="vermelho">#9A0000</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="verde">#5cb85c</color>
+    <color name="azul">#0051BA</color>
+
+    <color name="preto">#000000</color>
+
+
+</resources>

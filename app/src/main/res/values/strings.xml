@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Lanchonete</string>
+
+    <string name="arquivo_origem_nao_existe">O arquivo de origem não existe.</string>
+
+    <string name="aguarde">Aguarde&#8230;</string>
+    <string name="concluido">Concluído</string>
+    <string name="hifen">-</string>
+    <string name="sair">Sair</string>
+    <string name="status">Status</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="operacao_sucesso">Operação realizada com sucesso.</string>
+    <string name="operacao_erro">Não foi possível realizar a operação.</string>
+    <string name="campo_erro">Algum campo deixou de ser preenchido ou seu valor não é válido.</string>
+
+
+    <string name="splash_carregando">Carregando</string>
+    <string name="splash_logo">Lanchonete</string>
+    <string name="splash_rodape">Rodape</string>
+    <string name="splash_barrainferior">Barra Inferior</string>
+    <string name="splash_ponto">Ponto</string>
+
+
+    <string name="obtendo_dados_servidor">%s: Obtendo dados do servidor&#8230;</string>
+
+    <string name="title_activity_cardapio">Cardápio</string>
+    <string name="title_activity_pedido">Pedido</string>
+    <string name="title_activity_atualizarenviar">Atualizar Produtos</string>
+    <string name="title_activity_configuracoes">Configurações</string>
+    <string name="title_activity_locallogin">Login</string>
+
+    <string name="itemproduto_queroeste">QUERO ESTE</string>
+    <string name="itemproduto_editaringredientes">Editar Ingredientes</string>
+    <string name="itemproduto_trespontos">...</string>
+
+    <string name="itemmonteseulanche_remover">X</string>
+
+    <string name="itemingrediente_remover">Acidiconar</string>
+    <string name="itemingrediente_produto">Produto Nome</string>
+    <string name="itemingrediente_preco">R$ 999,99</string>
+
+    <string name="ingrediente_lbltotal">Total</string>
+    <string name="ingrediente_total">0,00</string>
+
+
+    <string name="dialogadicionar_complemento">Complemento</string>
+    <string name="dialogadicionar_quantidade">Quantidade</string>
+
+    <string name="pedido_pedir"> FINALIZAR PEDIDO </string>
+    <string name="pedido_menu">Menu </string>
+    <string name="pedido_opcao1">Opção 1 </string>
+    <string name="pedido_opcao2">Opção 2 </string>
+    <string name="pedido_analisandopedidos">Analisando pedido </string>
+
+    <string name="monteseupedido_salvar">"    Salvar    "</string>
+
+    <string name="configuracoes_servidor">Servidor</string>
+    <string name="configuracoes_salvar">Salvar</string>
+
+    <string name="senha_erro">Senha inválida.</string>
+
+    <string name="login_senha">Senha</string>
+    <string name="login_login">Login</string>
+
+    <string name="exclusao">Deseja realmente excluir este item?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+
+    <string name="icone_shoppingcart">&#xf07a;</string>
+    <string name="icone_shoppingcartplus">&#xf217;</string>
+</resources>
